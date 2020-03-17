@@ -13,7 +13,7 @@ class RoundView: UIImageView {
         set(newValue) {
             self.layer.cornerRadius = newValue
             self.layer.masksToBounds = true
-            self.layer.maskedCorners = [.layerMaxXMinYCorner]
+            self.layer.maskedCorners = [.layerMaxXMinYCorner, .layerMinXMinYCorner]
         }
         get {
             return self.layer.cornerRadius
