@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC53875B242065C600826ED5 /* RoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC53875A242065C600826ED5 /* RoundView.swift */; };
 		ACE24B9424177571001C8BCE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE24B9324177571001C8BCE /* AppDelegate.swift */; };
 		ACE24B9624177571001C8BCE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE24B9524177571001C8BCE /* SceneDelegate.swift */; };
 		ACE24B9824177571001C8BCE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE24B9724177571001C8BCE /* ViewController.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AC53875A242065C600826ED5 /* RoundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundView.swift; sourceTree = "<group>"; };
 		ACE24B9024177571001C8BCE /* ArcDraw.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArcDraw.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACE24B9324177571001C8BCE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ACE24B9524177571001C8BCE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				ACE24B9C24177573001C8BCE /* Assets.xcassets */,
 				ACE24B9E24177573001C8BCE /* LaunchScreen.storyboard */,
 				ACE24BA124177573001C8BCE /* Info.plist */,
+				AC53875A242065C600826ED5 /* RoundView.swift */,
 			);
 			path = ArcDraw;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACE24B9824177571001C8BCE /* ViewController.swift in Sources */,
+				AC53875B242065C600826ED5 /* RoundView.swift in Sources */,
 				ACE24B9424177571001C8BCE /* AppDelegate.swift in Sources */,
 				ACE24B9624177571001C8BCE /* SceneDelegate.swift in Sources */,
 			);
